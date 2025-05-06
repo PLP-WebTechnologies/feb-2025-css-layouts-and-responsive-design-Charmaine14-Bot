@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmaine W | I</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 1. Home Section with Burger Menu -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Charmaine<span> &nbsp;Tshiwela</span></a>
+            <nav class="navbar">
+                <div class="burger-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#grid">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#flex">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Web and  Interiors Designs</h1>
+            <p>Discover the perfect blend of web development and interior design expertise, where digital aesthetics meet physical spaces. We create harmonious experiences across both virtual and real-world environments.</p>
+            <a href="#grid" class="btn">Explore More</a>
+        </div>
+    </section>
+
+    <section id="grid" class="grid-section">
+        <div class="container">
+            <h2>Our Design Philosophy</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <i>🎨🖌️</i>
+                    <h3>Color Harmony</h3>
+                    <p>Creating harmonious color schemes for both web interfaces and interior spaces.</p>
+                </div>
+                <div class="grid-item">
+                    <i>💻📱</i>
+                    <h3>Responsive</h3>
+                    <p>Flawless adaptation to all screen sizes with proper breakpoints.</p>
+                </div>
+                <div class="grid-item">
+                    <i>💡</i>
+                    <h3>Modern Techniques</h3>
+                    <p>Utilizing Flexbox, Grid, and media queries for optimal layouts.</p>
+                </div>
+                <div class="grid-item">
+                    <i>👁️</i>
+                    <h3>Visual Appeal</h3>
+                    <p>Carefully curated aesthetics with attention to detail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Image Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="image-block left-image">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Modern Interior">
+                </div>
+                <div class="text-content">
+                    <h3>Elegant Interiors</h3>
+                    <p>Crafting elegant living spaces that blend sophistication with comfort. Our interior design solutions transform your space into a luxurious sanctuary using thoughtful color palettes and premium materials.</p>
+                </div>
+            </div>
+            
+            <div class="image-block right-image">
+                <div class="text-content">
+                    <h3>Web Design</h3>
+                    <p>Crafting bespoke refined web designs that merge luxury with usability. Our web solutions emphasize intuitive user experience, adaptable layouts, and contemporary design standards.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Web Design">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="flex" class="flex-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h3>Web Design</h3>
+                    <p>Custom websites using this elegant color scheme with modern CSS techniques.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Branding</h3>
+                    <p>Complete visual identity development featuring your preferred palette.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Consulting</h3>
+                    <p>Expert advice on implementing this color combination effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="form-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Interest</label>
+                    <select id="service">
+                        <option value="web">Web Design</option>
+                        <option value="branding">Branding</option>
+                        <option value="consulting">Consulting</option>
+                        <option value="interior">Interior Design</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3 style="font-style: italic;">Charmaine Tshiwela</h3>
+                    <p>Specializing in creating stunning web experiences and transforming interior spaces.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#grid">Features</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#flex">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>Ramaphalatc@gmail.com</p>
+                    <p>071 234 5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 . All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navList = document.querySelector('.nav-list');
+
+        burgerMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            burgerMenu.classList.toggle('toggle');
+        });
+        const navLinks = document.querySelectorAll('.nav-list li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+                burgerMenu.classList.remove('toggle');
+            });
+        });
+    </script>
+</body>
+</html>
